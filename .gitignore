@@ -1,0 +1,21 @@
+# Auto-backups (zip archives)
+*-backups/
+
+# Per-user view settings
+*.kicad_prl
+
+# Footprint cache
+fp-info-cache
+
+# Lock files (project open in KiCad)
+*.lck
+~*.lck
+
+# Local edit history plugin
+.history/
+
+# OS / IDE
+.DS_Store
+*~
+.vscode/
+.idea/
