@@ -2209,9 +2209,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "1 - VBAT					- PU\n2 - PC13 - BUTTON			- PU/O\n3 - OSC32_IN				- I\n4 - OSC32_OUT				- I\n5 - OSC_IN					- I\n6 - OSC_OUT					- I\n7 - NRST					- PU/O\n8 - VSS						- PD\n9 - VDD						- PU\n10 - PA0/ADC0				- PU/PD/O\n11 - PA1/ADC1				- PU/PD/O\n12 - PA2/ADC2				- PU/PD/O\n13 - PA3/ADC3/TIM			- PU/PD/O\n14 - PA4/ADC4				- O\n15 - PA5/TIM				- O\n16 - PA6					- O\n17 - PA7/VDD(F373)			- PU/O\n18 - PB0/EVENT				- O\n19 - PB1/VSS				- PD/O\n20 - PB2/VREF+/TIM			- PU/O\n21 - PB10(PE8)/VCAP/TIM		- PU/O\n22 - PB11(10/PE9)/VCAP/TIM	- PU/O\n23 - VSS					- PD\n24 - VDD					- PU\n25 - PB12(11)/VrefSD+		- PU/O\n26 - PB13(12/14)/TIM		- O\n27 - PB14(13/15)/RTC		- O\n28 - PB15(14/PD8)			- O\n29 - PA8(PB15)/RCC			- O\n30 - PA9(8)/UART_TX			- O\n31 - PA10(9)/UART_RX		- O\n32 - PA11(10)/UART_CTS		- O\n33 - PA12(11)/UART_RTS		- O\n34 - PA13(12)				- O\n35 - VSS/PF6				- PD/O\n36 - VDD/PF7				- PU/O\n37 - PA14(13)/I2C_SMBA		- PU/O\n38 - PA15(14)/SPI_NSS		- O\n39 - PB3(PA15)/SPI_SCK		- O\n40 - PB4(3)/SPI_MISO		- O\n41 - PB5(4)/SPI_MOSI		- O\n42 - PB6(5)/I2C_SCL			- PU/O\n43 - PB7(6)/I2C_SDA			- PU/O\n44 - BOOT_0/PB7				- PU/PD/O\n45 - PB8(7)/BOOT_0			- PU/PD/O\n46 - PB9(8)/VSS				- PD/O\n47 - VSS/PDR_ON				- PD/O\n48 - VDD					- PD"
+	(text_box "1 - VBAT					- PU		OK\n2 - PC13 - BUTTON			- PU/O		OK\n3 - OSC32_IN				- I\n4 - OSC32_OUT				- I\n5 - OSC_IN					- I\n6 - OSC_OUT					- I\n7 - NRST					- PU/O\n8 - VSS						- PD\n9 - VDD						- PU\n10 - PA0/ADC0				- PU/PD/O\n11 - PA1/ADC1				- PU/PD/O\n12 - PA2/ADC2				- PU/PD/O\n13 - PA3/ADC3/TIM			- PU/PD/O\n14 - PA4/ADC4				- O\n15 - PA5/TIM				- O\n16 - PA6					- O\n17 - PA7/VDD(F373)			- PU/O\n18 - PB0/EVENT				- O\n19 - PB1/VSS				- PD/O\n20 - PB2/VREF+/TIM			- PU/O\n21 - PB10(PE8)/VCAP/TIM		- PU/O\n22 - PB11(10/PE9)/VCAP/TIM	- PU/O\n23 - VSS					- PD\n24 - VDD					- PU\n25 - PB12(11)/VrefSD+		- PU/O\n26 - PB13(12/14)/TIM		- O\n27 - PB14(13/15)/RTC		- O\n28 - PB15(14/PD8)			- O\n29 - PA8(PB15)/RCC			- O\n30 - PA9(8)/UART_TX			- O\n31 - PA10(9)/UART_RX		- O\n32 - PA11(10)/UART_CTS		- O\n33 - PA12(11)/UART_RTS		- O\n34 - PA13(12)				- O\n35 - VSS/PF6				- PD/O\n36 - VDD/PF7				- PU/O\n37 - PA14(13)/I2C_SMBA		- PU/O\n38 - PA15(14)/SPI_NSS		- O\n39 - PB3(PA15)/SPI_SCK		- O\n40 - PB4(3)/SPI_MISO		- O\n41 - PB5(4)/SPI_MOSI		- O\n42 - PB6(5)/I2C_SCL			- PU/O\n43 - PB7(6)/I2C_SDA			- PU/O\n44 - BOOT_0/PB7				- PU/PD/O\n45 - PB8(7)/BOOT_0			- PU/PD/O\n46 - PB9(8)/VSS				- PD/O\n47 - VSS/PDR_ON				- PD/O\n48 - VDD					- PD"
 		(exclude_from_sim no)
-		(at 15.24 179.07 0)
+		(at 238.76 102.87 0)
 		(size 55.88 102.0905)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2228,7 +2228,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "4a252aae-6646-4893-8946-aedc39871167")
+		(uuid "1ca47d34-3cdf-4766-9365-fbc769ea7346")
 	)
 	(junction
 		(at 224.79 43.18)
@@ -2241,12 +2241,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02bd3594-63de-405f-a97a-9eeafe50d9c5")
-	)
-	(junction
-		(at 293.37 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f4a8a00-27f8-49c7-a746-75df538bf8fc")
 	)
 	(junction
 		(at 63.5 52.07)
@@ -2273,12 +2267,6 @@
 		(uuid "27766a02-a37c-4976-8d84-90a912ae33c7")
 	)
 	(junction
-		(at 293.37 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27fdce19-312e-44e1-8353-76499d98b0f2")
-	)
-	(junction
 		(at 73.66 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2301,12 +2289,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31465f07-dffb-419d-9426-cd15c6fdff8e")
-	)
-	(junction
-		(at 58.42 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cbde3b5-2127-42bd-9e65-39518040d17e")
 	)
 	(junction
 		(at 189.23 43.18)
@@ -2381,6 +2363,12 @@
 		(uuid "bb60201a-431f-463b-98b1-d95500df2544")
 	)
 	(junction
+		(at 224.79 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bccb2420-3cea-4479-9e0e-be89ed43a1ce")
+	)
+	(junction
 		(at 269.24 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2393,22 +2381,16 @@
 		(uuid "c3e53262-f7d8-4baf-a1ee-8c4369296d37")
 	)
 	(junction
-		(at 31.75 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7ef1631-ec45-415d-8850-faff059cdee6")
-	)
-	(junction
-		(at 303.53 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd95f6a2-e140-46dd-afeb-1f3c5d32ad22")
-	)
-	(junction
 		(at 153.67 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2ad5255-5518-415a-9c00-5dfb605641d5")
+	)
+	(junction
+		(at 189.23 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7841645-2aac-4b6a-b9cf-3d6d609223aa")
 	)
 	(junction
 		(at 73.66 52.07)
@@ -2428,6 +2410,12 @@
 		(color 0 0 0 0)
 		(uuid "f8cde595-9810-4c4b-9152-cb1391cd70f5")
 	)
+	(junction
+		(at 153.67 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb0d9b31-71e5-4315-8390-4695f2ba5223")
+	)
 	(wire
 		(pts
 			(xy 224.79 41.91) (xy 224.79 43.18)
@@ -2440,17 +2428,37 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 53.34) (xy 293.37 53.34)
+			(xy 335.28 33.02) (xy 342.9 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "045e653b-c847-401e-9211-d343d96ab016")
+		(uuid "016ce9e1-df09-4abc-9a46-7440ef312e8e")
 	)
 	(wire
 		(pts
-			(xy 90.17 153.67) (xy 113.03 153.67)
+			(xy 383.54 40.64) (xy 377.19 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c6ebcf-49c3-41a4-ba5d-44cb691890a4")
+	)
+	(wire
+		(pts
+			(xy 303.53 39.37) (xy 297.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050a1afc-3c8a-421e-8408-540844b81040")
+	)
+	(wire
+		(pts
+			(xy 101.6 153.67) (xy 113.03 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2460,7 +2468,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 148.59) (xy 156.21 148.59)
+			(xy 303.53 45.72) (xy 297.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e0628d-178d-4e4f-9ec6-7560aa257e33")
+	)
+	(wire
+		(pts
+			(xy 143.51 148.59) (xy 148.59 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2480,6 +2498,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 33.02) (xy 369.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0930a0c9-1887-40fa-84b9-0059aeb3a233")
+	)
+	(wire
+		(pts
 			(xy 107.95 179.07) (xy 113.03 179.07)
 		)
 		(stroke
@@ -2490,13 +2518,23 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 83.82) (xy 31.75 85.09)
+			(xy 330.2 39.37) (xy 323.85 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b0291c0-b10e-437c-98e4-ad7bf983298e")
+		(uuid "0a0e177b-360a-442c-b66e-2723ae4134b4")
+	)
+	(wire
+		(pts
+			(xy 224.79 67.31) (xy 224.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b631c41-d093-4097-b572-303e40b851b4")
 	)
 	(wire
 		(pts
@@ -2507,6 +2545,26 @@
 			(type default)
 		)
 		(uuid "0b87d2bf-8eff-440f-80b4-4bc92235cb4e")
+	)
+	(wire
+		(pts
+			(xy 335.28 45.72) (xy 342.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd83b89-3b85-4112-9514-887bafbdb8f8")
+	)
+	(wire
+		(pts
+			(xy 335.28 52.07) (xy 342.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eec4d38-12bd-4df2-98de-2fb850283ef0")
 	)
 	(wire
 		(pts
@@ -2550,6 +2608,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 33.02) (xy 377.19 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116cee99-ed42-4ba9-ae4d-ba1b8b61b1d2")
+	)
+	(wire
+		(pts
 			(xy 130.81 207.01) (xy 130.81 208.28)
 		)
 		(stroke
@@ -2560,33 +2628,33 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 52.07) (xy 293.37 53.34)
+			(xy 308.61 58.42) (xy 316.23 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "164e5055-59f8-400c-9dbf-7556ac0b989a")
+		(uuid "16b4b721-7ed9-43ea-bfbb-17d45667ecee")
 	)
 	(wire
 		(pts
-			(xy 73.66 140.97) (xy 113.03 140.97)
+			(xy 356.87 39.37) (xy 350.52 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "186720b0-3b0d-4c80-9e56-5e6e68802b58")
+		(uuid "174f9dce-d45a-4def-accc-95c926edbe1a")
 	)
 	(wire
 		(pts
-			(xy 293.37 43.18) (xy 293.37 44.45)
+			(xy 224.79 77.47) (xy 231.14 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18e61e6d-9e1f-4b83-ae7f-8ba0be18aab2")
+		(uuid "184fed79-e322-441e-9958-e5f2cf686e0d")
 	)
 	(wire
 		(pts
@@ -2597,6 +2665,16 @@
 			(type default)
 		)
 		(uuid "1abc6091-4731-4acc-b2e2-cb5e8dbdfc0e")
+	)
+	(wire
+		(pts
+			(xy 153.67 77.47) (xy 153.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af0562b-98fb-4f31-98cc-ef5dd1e24b9f")
 	)
 	(wire
 		(pts
@@ -2620,6 +2698,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 58.42) (xy 350.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2038fb3f-6133-4370-8ba1-d23665bfe2fc")
+	)
+	(wire
+		(pts
 			(xy 189.23 52.07) (xy 189.23 53.34)
 		)
 		(stroke
@@ -2627,6 +2715,16 @@
 			(type default)
 		)
 		(uuid "218e0015-13f0-4e65-bc8c-d128b021245f")
+	)
+	(wire
+		(pts
+			(xy 283.21 68.58) (xy 283.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b56bcc-a39c-44f5-833a-9de9196db22b")
 	)
 	(wire
 		(pts
@@ -2700,7 +2798,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 148.59) (xy 113.03 148.59)
+			(xy 101.6 148.59) (xy 113.03 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2720,6 +2818,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 40.64) (xy 369.57 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0046cd-946d-4047-a83a-ab321fbf5e3a")
+	)
+	(wire
+		(pts
 			(xy 130.81 109.22) (xy 133.35 109.22)
 		)
 		(stroke
@@ -2727,6 +2835,16 @@
 			(type default)
 		)
 		(uuid "2c434d33-3d8c-4f94-9c2e-57c008bc2787")
+	)
+	(wire
+		(pts
+			(xy 330.2 52.07) (xy 323.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d288b7a-3b37-4004-9fd6-576d01cd03ab")
 	)
 	(wire
 		(pts
@@ -2740,23 +2858,23 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 43.18) (xy 290.83 43.18)
+			(xy 356.87 45.72) (xy 350.52 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "306059cf-0710-4362-9d3c-6ac45ea50aa2")
+	)
+	(wire
+		(pts
+			(xy 303.53 33.02) (xy 297.18 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31b8bfd4-50bf-40dd-a983-75b07277a528")
-	)
-	(wire
-		(pts
-			(xy 303.53 52.07) (xy 303.53 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3360b693-78f7-4cea-a1b3-2ef4862cc093")
 	)
 	(wire
 		(pts
@@ -2830,6 +2948,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 58.42) (xy 289.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3e9398-c28a-4e09-bfc1-d4fa64234e2b")
+	)
+	(wire
+		(pts
 			(xy 199.39 44.45) (xy 199.39 43.18)
 		)
 		(stroke
@@ -2837,6 +2965,16 @@
 			(type default)
 		)
 		(uuid "3dbd695a-848c-40d2-93bb-4932d3e49cbd")
+	)
+	(wire
+		(pts
+			(xy 308.61 52.07) (xy 316.23 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40033f51-b804-43a7-b517-2cfde14bb0ab")
 	)
 	(wire
 		(pts
@@ -2880,13 +3018,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 153.67) (xy 80.01 153.67)
+			(xy 189.23 86.36) (xy 189.23 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4aec72cf-a3c6-44cd-b939-bf25b3af105f")
+		(uuid "4889b154-c5cc-49ac-8f2a-802add85d52a")
+	)
+	(wire
+		(pts
+			(xy 285.75 78.74) (xy 283.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4895646a-4df9-41a9-9008-0319c3173e93")
 	)
 	(wire
 		(pts
@@ -2960,23 +3108,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 156.21) (xy 71.12 156.21)
+			(xy 106.68 151.13) (xy 113.03 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5246b5ff-fb82-4deb-b486-a2c190e1a783")
-	)
-	(wire
-		(pts
-			(xy 87.63 148.59) (xy 93.98 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55344204-63cc-4466-af00-cd999cf08672")
+		(uuid "54715476-82ca-4ade-90a9-36163d9f0591")
 	)
 	(wire
 		(pts
@@ -3000,13 +3138,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 82.55) (xy 31.75 83.82)
+			(xy 303.53 52.07) (xy 297.18 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58275d0c-b46e-4000-b678-ef04a4375b18")
+		(uuid "59b84428-a906-4658-9495-3d02b096040c")
 	)
 	(wire
 		(pts
@@ -3050,43 +3188,53 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 95.25) (xy 58.42 96.52)
+			(xy 281.94 52.07) (xy 289.56 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fb811e2-5f82-49a1-aa37-138b41a23138")
+		(uuid "5ffd3358-153b-419b-87db-23b551aa5fe8")
 	)
 	(wire
 		(pts
-			(xy 293.37 53.34) (xy 293.37 54.61)
+			(xy 153.67 86.36) (xy 153.67 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6191e48e-b44b-4042-9be7-5e13a0c9be17")
+		(uuid "613c5ba8-8f39-404b-9bf7-433ef7199fba")
 	)
 	(wire
 		(pts
-			(xy 31.75 73.66) (xy 31.75 74.93)
+			(xy 308.61 39.37) (xy 316.23 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64c946dd-4db6-40ca-b452-c52f1f28427c")
+		(uuid "64cd1e6e-d616-48e5-87f7-bbde5ea4221a")
 	)
 	(wire
 		(pts
-			(xy 31.75 92.71) (xy 31.75 93.98)
+			(xy 153.67 67.31) (xy 153.67 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6538ddfc-e7b1-4796-93c0-63bcc6d3ae1b")
+		(uuid "67527137-000a-4102-a611-50bc4d2fdff3")
+	)
+	(wire
+		(pts
+			(xy 330.2 33.02) (xy 323.85 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6891deae-c9d4-475f-83d2-32f8df0101fc")
 	)
 	(wire
 		(pts
@@ -3097,6 +3245,16 @@
 			(type default)
 		)
 		(uuid "68d3e83a-1036-4e53-bd11-8953f8bd369e")
+	)
+	(wire
+		(pts
+			(xy 283.21 77.47) (xy 283.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698b65cd-b5c5-4b59-8890-60ad1bd44001")
 	)
 	(wire
 		(pts
@@ -3120,26 +3278,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 143.51) (xy 113.03 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e5efa9f-f9d4-4c57-9318-638b98be2d72")
-	)
-	(wire
-		(pts
-			(xy 71.12 156.21) (xy 71.12 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e77862c-e186-40ab-a71b-e09c12201990")
-	)
-	(wire
-		(pts
 			(xy 259.08 43.18) (xy 269.24 43.18)
 		)
 		(stroke
@@ -3150,7 +3288,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 181.61) (xy 113.03 181.61)
+			(xy 100.33 181.61) (xy 113.03 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3230,16 +3368,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 153.67) (xy 73.66 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c62888c-d244-4e0a-9f89-3c902195cbea")
-	)
-	(wire
-		(pts
 			(xy 163.83 52.07) (xy 163.83 53.34)
 		)
 		(stroke
@@ -3250,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 43.18) (xy 283.21 43.18)
+			(xy 281.94 33.02) (xy 289.56 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3290,16 +3418,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 41.91) (xy 293.37 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "835edc45-f91a-4db4-b9a5-ab135ca04a0b")
-	)
-	(wire
-		(pts
 			(xy 243.84 43.18) (xy 248.92 43.18)
 		)
 		(stroke
@@ -3317,16 +3435,6 @@
 			(type default)
 		)
 		(uuid "84120273-209b-43bb-83b4-8ff88090a08a")
-	)
-	(wire
-		(pts
-			(xy 58.42 83.82) (xy 64.77 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84619ad9-a2d4-4829-a455-65e90a60ba41")
 	)
 	(wire
 		(pts
@@ -3360,6 +3468,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 45.72) (xy 323.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872bc0ac-f57d-4fb8-aa79-b93180ffd8e5")
+	)
+	(wire
+		(pts
 			(xy 31.75 31.75) (xy 31.75 33.02)
 		)
 		(stroke
@@ -3370,23 +3488,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 83.82) (xy 58.42 85.09)
+			(xy 189.23 76.2) (xy 189.23 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c8d1c81-7070-4f0c-9c7d-7739e2a3b8a3")
-	)
-	(wire
-		(pts
-			(xy 303.53 44.45) (xy 303.53 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e507bbe-06fc-44f2-a4cc-32208b5560d1")
+		(uuid "8d65c23b-1ab3-411d-ab11-b0aee547efde")
 	)
 	(wire
 		(pts
@@ -3450,13 +3558,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 73.66) (xy 58.42 74.93)
+			(xy 356.87 33.02) (xy 350.52 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d8d3e36-01d2-4107-adbf-fcb5e78f5ed7")
+		(uuid "9c125060-2003-4b81-9a5a-577b2cd74a3d")
 	)
 	(wire
 		(pts
@@ -3470,23 +3578,33 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 83.82) (xy 38.1 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1a4e042-fbfd-4a74-8403-be8d43f9d853")
-	)
-	(wire
-		(pts
-			(xy 90.17 156.21) (xy 113.03 156.21)
+			(xy 101.6 156.21) (xy 113.03 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a33f5790-302a-4cd6-a569-48fd77117edd")
+	)
+	(wire
+		(pts
+			(xy 189.23 77.47) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35a2360-b320-4ca3-8838-840a3df7d4a4")
+	)
+	(wire
+		(pts
+			(xy 208.28 77.47) (xy 214.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b95af0-7130-4b29-8721-173228084ad9")
 	)
 	(wire
 		(pts
@@ -3580,13 +3698,43 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 43.18) (xy 307.34 43.18)
+			(xy 222.25 77.47) (xy 224.79 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afe8b30a-b7d3-41ee-88f3-fcc6b07ab708")
+		(uuid "adaf66bb-bfe4-42d7-ac25-cfbddbc94dfb")
+	)
+	(wire
+		(pts
+			(xy 330.2 58.42) (xy 323.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10e12ec-cf77-4fd7-9070-1a2ac4fcfc5d")
+	)
+	(wire
+		(pts
+			(xy 308.61 33.02) (xy 316.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b156085b-d84e-4ba0-9876-e2b5ec70b64f")
+	)
+	(wire
+		(pts
+			(xy 356.87 52.07) (xy 350.52 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c2e3f2-3e7d-46e4-afed-fc6b97bd173d")
 	)
 	(wire
 		(pts
@@ -3620,7 +3768,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 135.89) (xy 113.03 135.89)
+			(xy 335.28 39.37) (xy 342.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58a16c3-2832-4e31-98b3-c6e5c4194c66")
+	)
+	(wire
+		(pts
+			(xy 105.41 135.89) (xy 113.03 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3650,6 +3808,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 58.42) (xy 297.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e3771f-aee6-42c5-8eea-16dc704c45ce")
+	)
+	(wire
+		(pts
 			(xy 83.82 31.75) (xy 73.66 31.75)
 		)
 		(stroke
@@ -3667,6 +3835,16 @@
 			(type default)
 		)
 		(uuid "bc69d6f8-d379-4693-a2a4-fc67f66760bd")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 153.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1f5878-2b4e-4a4c-b476-53642b9df1a0")
 	)
 	(wire
 		(pts
@@ -3690,6 +3868,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 58.42) (xy 342.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd8c4c3-e30b-4119-bc1e-204ff87a12d0")
+	)
+	(wire
+		(pts
 			(xy 189.23 43.18) (xy 186.69 43.18)
 		)
 		(stroke
@@ -3700,23 +3888,13 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 43.18) (xy 303.53 43.18)
+			(xy 104.14 140.97) (xy 113.03 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c166bd66-c385-49bb-8929-8c354c310275")
-	)
-	(wire
-		(pts
-			(xy 58.42 82.55) (xy 58.42 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1cac8f1-8fc3-4f4c-8c22-9fbb0fa7358f")
+		(uuid "c2fdfacb-5be0-4afd-a5be-71893804ebfc")
 	)
 	(wire
 		(pts
@@ -3747,6 +3925,26 @@
 			(type default)
 		)
 		(uuid "c98bb16b-6bf3-473d-b889-32d5808012bc")
+	)
+	(wire
+		(pts
+			(xy 224.79 76.2) (xy 224.79 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f1a3de-1a8f-4fb6-9c02-35a2940e3d23")
+	)
+	(wire
+		(pts
+			(xy 224.79 88.9) (xy 224.79 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae1d9c1-813a-4b42-b6e4-9ce42f335948")
 	)
 	(wire
 		(pts
@@ -3800,6 +3998,26 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 77.47) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef27ef7-da83-485e-ae0a-64cd4436b55b")
+	)
+	(wire
+		(pts
+			(xy 189.23 77.47) (xy 189.23 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf646e72-00f0-4f58-b968-bd43f129eaab")
+	)
+	(wire
+		(pts
 			(xy 93.98 31.75) (xy 83.82 31.75)
 		)
 		(stroke
@@ -3807,6 +4025,16 @@
 			(type default)
 		)
 		(uuid "d0dc4e2e-c9f7-46ad-8710-03674f42c88b")
+	)
+	(wire
+		(pts
+			(xy 308.61 45.72) (xy 316.23 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f313b3-bff9-4a20-8d37-6a3052630d62")
 	)
 	(wire
 		(pts
@@ -3830,6 +4058,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 45.72) (xy 289.56 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55efa3f-10c3-4e7f-b74a-499d81177253")
+	)
+	(wire
+		(pts
 			(xy 224.79 53.34) (xy 224.79 54.61)
 		)
 		(stroke
@@ -3847,6 +4085,16 @@
 			(type default)
 		)
 		(uuid "d6f9a459-9f27-432f-a01b-d6e31824f91a")
+	)
+	(wire
+		(pts
+			(xy 104.14 143.51) (xy 113.03 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7177253-9c7c-448a-b0ff-85092ca58054")
 	)
 	(wire
 		(pts
@@ -3960,6 +4208,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 77.47) (xy 224.79 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73c10cd-5232-4c50-aaf3-748a2ae78d9f")
+	)
+	(wire
+		(pts
 			(xy 153.67 53.34) (xy 153.67 54.61)
 		)
 		(stroke
@@ -3970,6 +4228,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 77.47) (xy 186.69 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead51175-ebd3-4998-b4ba-b7867d10361f")
+	)
+	(wire
+		(pts
+			(xy 281.94 39.37) (xy 289.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3b342d-42fb-4d0a-ac10-3eaeef62ba14")
+	)
+	(wire
+		(pts
 			(xy 45.72 82.55) (xy 45.72 83.82)
 		)
 		(stroke
@@ -3977,16 +4255,6 @@
 			(type default)
 		)
 		(uuid "eeef2bfc-35ef-4a7e-b66d-734e2b3a68da")
-	)
-	(wire
-		(pts
-			(xy 166.37 148.59) (xy 176.53 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef4e6d3c-aa91-4d18-977b-ba2c0e32b884")
 	)
 	(wire
 		(pts
@@ -4010,6 +4278,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 67.31) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35c940d-ab9b-4944-b283-476e3e15df52")
+	)
+	(wire
+		(pts
 			(xy 163.83 44.45) (xy 163.83 43.18)
 		)
 		(stroke
@@ -4020,16 +4298,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 33.02) (xy 293.37 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f398d02d-65bc-4aa6-8db5-d14f147581ad")
-	)
-	(wire
-		(pts
 			(xy 153.67 41.91) (xy 153.67 43.18)
 		)
 		(stroke
@@ -4037,6 +4305,36 @@
 			(type default)
 		)
 		(uuid "f3b3a147-554d-4711-8fff-db7bb667c54a")
+	)
+	(wire
+		(pts
+			(xy 153.67 77.47) (xy 151.13 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5902ba2-ffe6-492c-a796-3b4d1cb75621")
+	)
+	(wire
+		(pts
+			(xy 153.67 77.47) (xy 163.83 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76575c3-0e15-436f-bee8-a5d089e24cd4")
+	)
+	(wire
+		(pts
+			(xy 171.45 77.47) (xy 179.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcc9d2f-8a46-4b10-acef-5173ca7057ca")
 	)
 	(wire
 		(pts
@@ -4058,18 +4356,18 @@
 		)
 		(uuid "fe6a0a0c-22c0-4c21-b274-c01135851c56")
 	)
-	(label "VDD"
-		(at 176.53 148.59 180)
+	(label "PA10"
+		(at 330.2 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "011c0b74-2376-4a3b-8495-0c53dc840506")
+		(uuid "03a6f2d5-7652-41ff-a205-763b978ead13")
 	)
 	(label "PA_4"
-		(at 278.13 43.18 0)
+		(at 281.94 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4077,6 +4375,16 @@
 			(justify left bottom)
 		)
 		(uuid "03aa45f4-8dfd-439b-b92f-e63ab1240a42")
+	)
+	(label "PB_5"
+		(at 335.28 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08f2e2d0-36e4-495f-8b05-a528bea7a4f9")
 	)
 	(label "NRST"
 		(at 52.07 83.82 180)
@@ -4097,6 +4405,16 @@
 			(justify left bottom)
 		)
 		(uuid "0bb6dca1-08c2-40f8-8504-5f679f46404e")
+	)
+	(label "BOOT_0"
+		(at 134.62 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d30ecd7-78cb-431b-888c-887c45b315e0")
 	)
 	(label "PA0"
 		(at 167.64 43.18 180)
@@ -4128,6 +4446,16 @@
 		)
 		(uuid "1bf92eb3-f852-4aa8-99e4-9299af6e890d")
 	)
+	(label "PA6"
+		(at 303.53 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d642395-2ef1-4066-8b9e-0399d53c93b8")
+	)
 	(label "PB0"
 		(at 107.95 161.29 0)
 		(effects
@@ -4158,6 +4486,76 @@
 		)
 		(uuid "2c0169cd-76e5-4ce2-b715-04d47fdde2da")
 	)
+	(label "PB_4"
+		(at 335.28 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ceb6875-5a56-4db1-9e90-10a532cb6413")
+	)
+	(label "PA7"
+		(at 148.59 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3441af53-4105-4186-bbbd-50715b22f160")
+	)
+	(label "PA5"
+		(at 303.53 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35c437ab-1c8a-4bd1-82fb-12a7e4961ffd")
+	)
+	(label "PB_13"
+		(at 335.28 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36d9e40a-1404-4d4e-9d7b-93f58cf9f4e5")
+	)
+	(label "PB5"
+		(at 356.87 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "381ef5a9-7021-416c-ad4d-c3f0aec17d57")
+	)
+	(label "PB14"
+		(at 383.54 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f278517-4421-447a-8794-db800b354c2c")
+	)
+	(label "PA_5"
+		(at 281.94 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40a8d2b1-09b5-433a-ae10-82901079c1e4")
+	)
 	(label "PA4"
 		(at 148.59 140.97 180)
 		(effects
@@ -4177,6 +4575,56 @@
 			(justify left bottom)
 		)
 		(uuid "4f01d143-8ae7-4166-995f-c45d58699230")
+	)
+	(label "PB_14"
+		(at 361.95 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f40b7f3-02fb-43e2-8383-ed635cf65617")
+	)
+	(label "BOOT0"
+		(at 163.83 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5266bdd2-246b-421a-9423-cb57e35a88bc")
+	)
+	(label "PA_11"
+		(at 308.61 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52d57c56-eef3-4492-b1ba-9f1fe3b16f34")
+	)
+	(label "PA_6"
+		(at 281.94 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54a680e9-9027-49ba-b4f0-2ddc78e20935")
+	)
+	(label "PA8"
+		(at 303.53 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "571e0240-406b-41af-b6a8-44e9d37b1875")
 	)
 	(label "NRST"
 		(at 106.68 130.81 0)
@@ -4208,18 +4656,48 @@
 		)
 		(uuid "63cc6322-2d89-4759-8087-4c862600368c")
 	)
-	(label "PC13"
-		(at 64.77 83.82 180)
+	(label "PB4"
+		(at 356.87 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6758fa34-e8d6-42b6-879e-31305b8f5629")
+		(uuid "64662ebc-b231-4de0-8448-d592a9b8896b")
+	)
+	(label "PB_15"
+		(at 361.95 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "673f7402-7ef9-4c1b-96c2-8e58948d2b88")
+	)
+	(label "PC_13"
+		(at 208.28 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6935f49a-5167-4f81-8214-59d2ff68dc97")
+	)
+	(label "PB0"
+		(at 356.87 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b3cfd1f-47a8-4a5e-be4a-c6ad8c0e29c4")
 	)
 	(label "PA4"
-		(at 307.34 43.18 180)
+		(at 303.53 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4238,6 +4716,16 @@
 		)
 		(uuid "6eaf194f-7b0a-46af-9cb2-5d817e84090a")
 	)
+	(label "PA_8"
+		(at 281.94 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71a21fb9-e0e6-42b6-8e54-b64c35b9861d")
+	)
 	(label "PA15"
 		(at 149.86 168.91 180)
 		(effects
@@ -4248,15 +4736,15 @@
 		)
 		(uuid "751de088-82be-4849-8436-3aa638650252")
 	)
-	(label "BOOT"
-		(at 38.1 83.82 180)
+	(label "PB3"
+		(at 356.87 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "7617a718-f595-45f1-996c-05b14d4874f5")
+		(uuid "77c2ca83-b485-4389-bc41-f0b22dae66a6")
 	)
 	(label "PB5"
 		(at 107.95 173.99 0)
@@ -4277,6 +4765,16 @@
 			(justify right bottom)
 		)
 		(uuid "82e595fb-ad8b-4b55-b7df-fa52ed3c477c")
+	)
+	(label "PA11"
+		(at 330.2 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d38251c-4030-4418-af79-fb6db58e5983")
 	)
 	(label "PA_1"
 		(at 173.99 43.18 0)
@@ -4328,6 +4826,16 @@
 		)
 		(uuid "95d477e9-53cb-401a-a694-951f5b4fe20f")
 	)
+	(label "PA_12"
+		(at 308.61 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96a8b65e-77ce-4c36-b694-8c963197e1cb")
+	)
 	(label "PB13"
 		(at 106.68 194.31 0)
 		(effects
@@ -4337,6 +4845,16 @@
 			(justify left bottom)
 		)
 		(uuid "9b300bcc-7eab-46ff-9cef-e215df0a0c48")
+	)
+	(label "PC13"
+		(at 106.68 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c11fe86-001a-41e8-a2c5-c08555996196")
 	)
 	(label "OSC_OUT"
 		(at 104.14 143.51 0)
@@ -4358,6 +4876,26 @@
 		)
 		(uuid "a41ab796-ab35-4702-9ac9-c9a7144a60db")
 	)
+	(label "PA_9"
+		(at 281.94 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8a12d5c-87fb-4e83-a7f3-920a4a624ad7")
+	)
+	(label "PB8_BOOT1"
+		(at 203.2 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa4c588f-29a0-4056-a685-873209f44c5a")
+	)
 	(label "VREFSD"
 		(at 104.14 191.77 0)
 		(effects
@@ -4367,6 +4905,16 @@
 			(justify left bottom)
 		)
 		(uuid "aafe7365-a20f-493a-86bc-794eb03c776f")
+	)
+	(label "PA_10"
+		(at 308.61 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "adb8ac08-f7c7-434d-87b2-0871a586747e")
 	)
 	(label "PA3"
 		(at 273.05 43.18 180)
@@ -4378,8 +4926,38 @@
 		)
 		(uuid "b0e497d8-424a-4540-b14d-6fec3df35957")
 	)
-	(label "PB8"
-		(at 107.95 181.61 0)
+	(label "PA13"
+		(at 330.2 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b11e9c3f-e884-4811-8011-0280dc87f8e2")
+	)
+	(label "BOOT_1"
+		(at 171.45 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b15c923b-d807-46c5-9439-f40fd78c59f1")
+	)
+	(label "PA15"
+		(at 330.2 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3e24d42-cab6-4b5e-9704-40f8913239e8")
+	)
+	(label "PB8_BOOT1"
+		(at 100.33 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4407,6 +4985,16 @@
 			(justify left bottom)
 		)
 		(uuid "b8f768d5-6b0d-4a20-8f4d-9384edcb21c0")
+	)
+	(label "PA13"
+		(at 356.87 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba3cc069-3720-429d-bde8-04eefccaa050")
 	)
 	(label "OSC_IN"
 		(at 104.14 140.97 0)
@@ -4448,6 +5036,16 @@
 		)
 		(uuid "bf96452d-47ab-4e0b-94c3-1fa15fb66935")
 	)
+	(label "PC0_VCAP"
+		(at 101.6 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1daf901-e164-466e-a193-451d482cfbad")
+	)
 	(label "PB1"
 		(at 107.95 163.83 0)
 		(effects
@@ -4458,15 +5056,25 @@
 		)
 		(uuid "c56527f8-9343-4b62-bc4b-9e58cd864572")
 	)
-	(label "VBAT{slash}VLCD"
-		(at 87.63 148.59 0)
+	(label "PB_0"
+		(at 335.28 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "cc64b462-b682-4fb7-aa38-747e0dcb97a2")
+		(uuid "cb0413dc-0fcc-4e77-861d-2c463324e1d8")
+	)
+	(label "PC0_VCAP"
+		(at 285.75 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d00c6190-6df0-4392-b1ad-5e5d56a6a15b")
 	)
 	(label "PA0"
 		(at 148.59 130.81 180)
@@ -4498,6 +5106,16 @@
 		)
 		(uuid "d83bc039-078e-4da1-b5b4-a938318cd261")
 	)
+	(label "PA_15"
+		(at 308.61 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfe9f1bf-414c-4455-b7b5-42163989d39a")
+	)
 	(label "PA5"
 		(at 148.59 143.51 180)
 		(effects
@@ -4507,6 +5125,16 @@
 			(justify right bottom)
 		)
 		(uuid "e1ed6b94-c216-4d49-99c8-12fa02982683")
+	)
+	(label "PB_3"
+		(at 335.28 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4a79341-c2cc-42dd-b60f-2f0a979808fa")
 	)
 	(label "PA9"
 		(at 148.59 153.67 180)
@@ -4548,6 +5176,16 @@
 		)
 		(uuid "f4a8a6b3-9e29-4368-99db-818f8476cf46")
 	)
+	(label "PB15"
+		(at 383.54 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f619e2a1-73cd-4f42-8333-58bedf89f439")
+	)
 	(label "PA2"
 		(at 238.76 43.18 180)
 		(effects
@@ -4558,8 +5196,18 @@
 		)
 		(uuid "fa92a480-cce4-4133-8092-47a4089b03ad")
 	)
-	(label "BOOT"
-		(at 106.68 135.89 0)
+	(label "PC13"
+		(at 231.14 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fcbfe1d6-46bd-4f92-ae61-fb394a0d9586")
+	)
+	(label "BOOT0"
+		(at 105.41 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4577,6 +5225,36 @@
 			(justify left bottom)
 		)
 		(uuid "fdaeaad2-7f75-48ef-931d-8d08c85027ec")
+	)
+	(label "PA_13"
+		(at 308.61 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdcfb174-77a9-4e7c-bacf-a8d2915b7a85")
+	)
+	(label "PA9"
+		(at 303.53 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe7bbb2e-8b02-45a2-a35c-57a7535d8de8")
+	)
+	(label "PA12"
+		(at 330.2 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe9ecdc5-75d2-44df-bf92-9082e5081239")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -4741,6 +5419,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 373.38 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08e0ae1f-41bb-467f-bf01-081916c69867")
+		(property "Reference" "R23"
+			(at 373.38 28.194 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 373.38 30.734 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.634 32.004 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 373.38 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ec05796-859a-4e9b-b423-8faa8f8ce632")
+		)
+		(pin "2"
+			(uuid "a0a3f9c9-c53b-4114-84bf-2ea52427edfa")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 45.72 90.17 90)
 		(unit 1)
@@ -4817,6 +5575,87 @@
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 283.21 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fd815b8-d9a7-4ff1-9f21-668488eabd78")
+		(property "Reference" "R17"
+			(at 284.48 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "nm_10k"
+			(at 284.48 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.226 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 283.21 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b7f0caf-b07f-43b1-964a-2367e8698262")
+		)
+		(pin "2"
+			(uuid "158b4079-9ac2-4c58-95e7-ba99b8748bb2")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -4985,83 +5824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 293.37 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1737901c-d2bc-4ff5-a4fb-940b8de0d922")
-		(property "Reference" "#PWR010"
-			(at 293.37 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 293.37 58.674 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 293.37 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 293.37 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "186aeaf1-cfe7-47f7-a43a-cb56250666af")
-		)
-		(instances
-			(project "STM32_TQFP48"
-				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 133.35 116.84 90)
 		(unit 1)
@@ -5138,6 +5900,166 @@
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 346.71 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d299cac-bd26-4b8a-bbbb-210d25c85201")
+		(property "Reference" "R20"
+			(at 346.71 28.194 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 346.71 30.734 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.964 32.004 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 346.71 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e82e3204-fd1a-4ee0-8288-238f737f7f86")
+		)
+		(pin "2"
+			(uuid "146c5a73-f2b1-4779-a756-22c53e771427")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 346.71 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e37a81e-2f28-40ff-a5ec-a575478a95cc")
+		(property "Reference" "R32"
+			(at 346.71 34.544 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 346.71 37.084 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.964 38.354 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 346.71 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dba17274-23c2-4757-a064-e7b5c61d0e56")
+		)
+		(pin "2"
+			(uuid "a9e49c29-5cee-467c-89c5-7079a14479e8")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -5296,6 +6218,86 @@
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 320.04 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c17dde7-3405-40a1-a618-b212784ed89b")
+		(property "Reference" "R31"
+			(at 320.04 53.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 320.04 56.134 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.294 57.404 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 320.04 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78f06bc1-bf0a-48e1-907b-ff3bf2a6ce2a")
+		)
+		(pin "2"
+			(uuid "6bbd13df-a14c-44c1-ac1c-93e5af7d0807")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -5462,8 +6464,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 58.42 78.74 0)
+		(lib_id "power:GND")
+		(at 224.79 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5471,31 +6473,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "340527ad-2324-4491-869a-f3fc815490f7")
-		(property "Reference" "R21"
-			(at 59.69 77.4699 0)
+		(uuid "3ac21d9a-f544-44af-adbc-6513378ac3b1")
+		(property "Reference" "#PWR018"
+			(at 224.79 96.52 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "nm_10k"
-			(at 59.69 80.0099 0)
+		(property "Value" "GND"
+			(at 224.79 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 59.436 78.994 90)
+			(at 224.79 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5506,7 +6507,161 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 78.74 0)
+			(at 224.79 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92fe5d43-65b0-47dd-8cb6-b0b6551558f4")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d19b0d4-0bce-4bc8-a89a-b6213a28a35e")
+		(property "Reference" "#PWR010"
+			(at 153.67 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "471a791b-91c7-4a44-a4d7-c20638e308ea")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 293.37 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4068c3a0-a798-4835-b292-aaca740af21e")
+		(property "Reference" "R14"
+			(at 293.37 34.544 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 293.37 37.084 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.624 38.354 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5517,7 +6672,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 58.42 78.74 0)
+			(at 293.37 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5528,23 +6683,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "c94034d5-b18c-48a1-86c3-76f0b39d3e90")
+			(uuid "037a65f6-59aa-4dbd-865e-5f6b5f24c848")
 		)
 		(pin "2"
-			(uuid "4a2e0328-06fa-4dff-80da-6c0d1ec40528")
+			(uuid "8b3e3820-1fe6-4a5e-be5d-f54bdc78d3bb")
 		)
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R21")
+					(reference "R14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 58.42 73.66 0)
+		(lib_id "Device:R_US")
+		(at 153.67 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5552,30 +6707,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3b03bf81-466c-48d5-805a-21bfcec3915a")
-		(property "Reference" "#PWR017"
-			(at 58.42 77.47 0)
-			(hide yes)
+		(uuid "41b8d96e-5b43-47e4-8dbe-c38577f39258")
+		(property "Reference" "R36"
+			(at 154.94 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "VCC"
-			(at 58.42 70.358 0)
+		(property "Value" "nm_10k"
+			(at 154.94 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 73.66 0)
+			(at 154.686 72.644 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5586,7 +6742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 73.66 0)
+			(at 153.67 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5596,8 +6752,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 58.42 73.66 0)
+		(property "Description" "Resistor, US symbol"
+			(at 153.67 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,94 +6764,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0bfea627-b7a9-4db7-a0ea-23c6450562a7")
-		)
-		(instances
-			(project "STM32_TQFP48"
-				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 58.42 90.17 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "404bc580-fc91-43f2-9fde-450a46f94e1c")
-		(property "Reference" "SW2"
-			(at 59.69 88.8999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 59.69 91.4399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 58.42 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "31dd6da8-2cc8-42ef-94e1-8cca0564ec70")
 		)
 		(pin "2"
-			(uuid "55497e01-d1ae-4600-aace-0c286e4002ea")
-		)
-		(pin "1"
-			(uuid "c1c1406d-9a73-4806-9e71-75fe8831ceb5")
+			(uuid "4441c242-04e1-45bc-9313-e5cecab8be47")
 		)
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "SW2")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -5775,6 +6852,164 @@
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 224.79 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48d68cd6-3f44-4f28-8d65-f8255cd17bbe")
+		(property "Reference" "R21"
+			(at 226.06 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "nm_10k"
+			(at 226.06 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 225.806 72.644 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 224.79 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f9d210f-65f3-4e57-b2bb-9d599e25c8a9")
+		)
+		(pin "2"
+			(uuid "b2845ab2-f662-4460-8aec-4e6dc2db99b9")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 189.23 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49a0001e-c79b-4a61-ab2e-10dde63b1f11")
+		(property "Reference" "#PWR021"
+			(at 189.23 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 189.23 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 189.23 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f96c256-dd65-4ba6-bc01-780642806c25")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6023,6 +7258,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 182.88 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f442efa-d064-410a-90b7-439d3bc7a8dc")
+		(property "Reference" "R38"
+			(at 182.88 72.644 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 182.88 75.184 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.134 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 182.88 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8fd993ad-9dc1-4e0a-8c0a-c130f51b8019")
+		)
+		(pin "2"
+			(uuid "774ecc40-4440-4051-832b-a2d1bf1c8641")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 224.79 33.02 0)
 		(unit 1)
@@ -6094,85 +7408,6 @@
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 85.09 156.21 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58fe796e-f03e-4b47-8697-ffc57bb7a04a")
-		(property "Reference" "JP6"
-			(at 85.09 159.004 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 85.344 160.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 85.09 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fdf1654f-8374-4b5d-9ba9-682e5fcd29d5")
-		)
-		(pin "1"
-			(uuid "da8f6249-6805-45f8-9722-dd4676304761")
-		)
-		(instances
-			(project "STM32_TQFP48"
-				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -6256,8 +7491,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 31.75 93.98 0)
+		(lib_id "power:VDD")
+		(at 283.21 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6265,9 +7500,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5f3e3c2f-01dd-40af-aea7-2f5e56c1fce7")
-		(property "Reference" "#PWR014"
-			(at 31.75 100.33 0)
+		(uuid "59613bac-4fb5-4dc2-be52-8be2d33b083d")
+		(property "Reference" "#PWR013"
+			(at 283.21 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6277,8 +7512,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 31.75 98.044 0)
+		(property "Value" "VCC"
+			(at 283.21 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6288,7 +7523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 93.98 0)
+			(at 283.21 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6299,7 +7534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 93.98 0)
+			(at 283.21 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6309,8 +7544,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 93.98 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 283.21 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6321,12 +7556,251 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c006db8-80b2-4652-8110-6c2a4d78b6a7")
+			(uuid "74ce2662-cb11-48e7-a3a0-e84d0e865ac3")
 		)
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR014")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 189.23 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a9501b6-1865-4f0a-86a1-43c898a02a69")
+		(property "Reference" "R39"
+			(at 190.5 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "nm_10k"
+			(at 190.5 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.246 72.644 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 189.23 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b79f969d-accb-40c2-97d3-88603dd058bb")
+		)
+		(pin "2"
+			(uuid "80562665-16db-4900-8f8c-204438336a31")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5bca6787-b42f-4121-89de-957ee420079d")
+		(property "Reference" "#PWR022"
+			(at 189.23 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64a6c6b0-2560-464e-acd1-85b712c256ed")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 189.23 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5cb87f75-4f77-4e4f-b532-b7e41a7fb482")
+		(property "Reference" "R40"
+			(at 190.5 81.5339 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "nm_10k"
+			(at 190.5 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.214 82.296 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 189.23 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71ecac02-2f2c-4100-a928-cc9de7ad7bb2")
+		)
+		(pin "2"
+			(uuid "87534c7d-436f-4fe5-b4c0-2392a66f2cfb")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -6572,87 +8046,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 31.75 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "648eeb9b-07fc-4888-b079-897cf9c969f2")
-		(property "Reference" "R17"
-			(at 33.02 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "nm_10k"
-			(at 33.02 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 32.766 78.994 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 31.75 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a5ccfba-8faf-4d5c-a685-145ce7b47882")
-		)
-		(pin "2"
-			(uuid "d444d180-d153-49c9-98c5-fbdd87485453")
-		)
-		(instances
-			(project "STM32_TQFP48"
-				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 189.23 33.02 0)
 		(unit 1)
@@ -6807,8 +8200,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 293.37 38.1 0)
+		(lib_id "power:VDD")
+		(at 153.67 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6816,31 +8209,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6b307624-6d8a-4926-97d8-f909d8cd207d")
-		(property "Reference" "R14"
-			(at 294.64 36.8299 0)
+		(uuid "78d8f734-6d2c-48c2-83d4-5001b0f58ec3")
+		(property "Reference" "#PWR09"
+			(at 153.67 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "nm_10k"
-			(at 294.64 39.3699 0)
+		(property "Value" "VCC"
+			(at 153.67 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 294.386 38.354 90)
+			(at 153.67 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6851,7 +8243,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 38.1 0)
+			(at 153.67 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 153.67 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "144e1ead-6976-4380-bb26-83c603e943ef")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 346.71 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "796d766a-cdf4-4cb4-8b38-a2d076734459")
+		(property "Reference" "R22"
+			(at 346.71 53.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 346.71 56.134 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.964 57.404 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6862,7 +8331,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 293.37 38.1 0)
+			(at 346.71 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6873,414 +8342,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "17b97442-6e5b-49ca-810e-19bb940f4ec1")
+			(uuid "2b8ba48c-0d21-4f02-b7e3-3ba81a0871e7")
 		)
 		(pin "2"
-			(uuid "0a4c7f26-c9a4-462f-8c0b-f3bf76833c22")
+			(uuid "0dd4acca-35cf-4ac6-95ce-1dc3276b3c1a")
 		)
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 85.09 153.67 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b6e7410-5fea-4400-902c-334d75e42c29")
-		(property "Reference" "JP5"
-			(at 85.09 149.606 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 85.09 151.384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 85.09 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dabbd8a2-3966-455d-b1e3-8ad21a6974ee")
-		)
-		(pin "1"
-			(uuid "34ea97cc-c4c4-44ab-b172-532f93d59ebc")
-		)
-		(instances
-			(project "STM32_TQFP48"
-				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 303.53 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6ca2ccf5-077c-41e5-8465-577e143e6023")
-		(property "Reference" "C5"
-			(at 305.816 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 305.816 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.4952 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 303.53 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 303.53 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "20eb0a86-dff0-4d10-a434-9a8471ca0fc1")
-		)
-		(pin "1"
-			(uuid "a800817d-a5a8-4f57-9f42-5bc68b95c452")
-		)
-		(instances
-			(project "STM32_TQFP48"
-				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 99.06 148.59 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fd0b416-b1b9-4596-b9e0-4f84aa1bbe70")
-		(property "Reference" "JP4"
-			(at 99.06 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 99.06 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 99.06 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ad708030-0a34-4a95-a21b-1abb6da66b8b")
-		)
-		(pin "1"
-			(uuid "0fb96f90-296f-47a1-9980-88aac859b36a")
-		)
-		(instances
-			(project "STM32_TQFP48"
-				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 173.99 118.11 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "727668c7-b944-4bec-9276-ae422fcdc9ad")
-		(property "Reference" "JP3"
-			(at 176.53 116.8399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 176.53 119.3799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 179.07 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "23746fb9-0d4b-4e1e-96a4-726a89357dd0")
-		)
-		(pin "1"
-			(uuid "468f105c-28cb-40b8-b212-36c4e2dfb0c7")
-		)
-		(instances
-			(project "STM32_TQFP48"
-				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7cd5a3e3-e932-411d-99f8-f74413c4467a")
-		(property "Reference" "#PWR018"
-			(at 58.42 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 100.584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b15588c-dcfd-474b-91c3-d6ffbcf9f73d")
-		)
-		(instances
-			(project "STM32_TQFP48"
-				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR018")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7445,8 +8515,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 31.75 73.66 0)
+		(lib_id "Device:R_US")
+		(at 293.37 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7454,9 +8524,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8900cd12-bbab-4116-a3b7-a4100cad6eef")
-		(property "Reference" "#PWR013"
-			(at 31.75 77.47 0)
+		(uuid "85dd8984-ba28-420d-b4a4-d889adaab2de")
+		(property "Reference" "R15"
+			(at 293.37 40.894 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7466,8 +8536,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 31.75 70.358 0)
+		(property "Value" "0R/100R"
+			(at 293.37 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7477,7 +8547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 73.66 0)
+			(at 293.624 44.704 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7488,7 +8558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 73.66 0)
+			(at 293.37 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7498,8 +8568,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 31.75 73.66 0)
+		(property "Description" "Resistor, US symbol"
+			(at 293.37 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7510,12 +8580,95 @@
 			)
 		)
 		(pin "1"
-			(uuid "af9e0653-b87c-469a-a8eb-b276e4bcb690")
+			(uuid "0d9801d7-3fd0-4c1c-8404-92754c822405")
+		)
+		(pin "2"
+			(uuid "25c5564a-86e8-42f8-bda8-096101e77d86")
 		)
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR013")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 320.04 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b59cdae-a84c-4bf5-8617-9faf6895628d")
+		(property "Reference" "R29"
+			(at 320.04 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 320.04 43.434 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.294 44.704 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 320.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4518254c-1eaa-4ab5-ae53-bbb2adcc260a")
+		)
+		(pin "2"
+			(uuid "1bf8ed1a-2b57-47e0-b5d4-5e89d2ee0957")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7766,6 +8919,163 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 320.04 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9773c4ce-07d3-4ee4-99b0-bf8d6b2651f0")
+		(property "Reference" "R30"
+			(at 320.04 47.244 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 320.04 49.784 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.294 51.054 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 320.04 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29fb97cc-05b8-48f6-881a-5a857ae44a8f")
+		)
+		(pin "2"
+			(uuid "e7ffb056-bfcd-4d96-8049-7e8d4727f773")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 224.79 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97ae061c-3a66-4f9e-9ccc-214c98493fb5")
+		(property "Reference" "#PWR017"
+			(at 224.79 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 224.79 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 224.79 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c21e04bb-7e67-4fc6-ad20-d99a7e457c9a")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 153.67 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -7846,8 +9156,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 293.37 33.02 0)
+		(lib_id "Device:R_US")
+		(at 293.37 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7855,9 +9165,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a06d663d-fe77-407c-92d5-c56c9463df62")
-		(property "Reference" "#PWR09"
-			(at 293.37 36.83 0)
+		(uuid "9aea22a4-3471-4f6e-9972-79eb61b0b8bb")
+		(property "Reference" "R25"
+			(at 293.37 47.244 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7867,8 +9177,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 293.37 29.718 0)
+		(property "Value" "0R/100R"
+			(at 293.37 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7878,7 +9188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 293.37 33.02 0)
+			(at 293.624 51.054 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7889,7 +9199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 33.02 0)
+			(at 293.37 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7899,8 +9209,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 293.37 33.02 0)
+		(property "Description" "Resistor, US symbol"
+			(at 293.37 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7911,12 +9221,334 @@
 			)
 		)
 		(pin "1"
-			(uuid "8506435d-70a4-4a80-8cc6-35ee8fd59fc5")
+			(uuid "05fb198c-46a4-4706-9152-0ff788bbdaa1")
+		)
+		(pin "2"
+			(uuid "fa0bb9e0-29ce-4003-88a3-3243d54bd225")
 		)
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR09")
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 293.37 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ee44e25-465a-4ee4-b989-ad070d26fefd")
+		(property "Reference" "R26"
+			(at 293.37 53.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 293.37 56.134 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.624 57.404 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 293.37 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7996567a-e2c6-4cff-b691-50929e606667")
+		)
+		(pin "2"
+			(uuid "c86e6d2f-af94-4d73-a503-0ccd3ceb978b")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 218.44 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a45dc649-5c74-43d5-b1ed-56905f5caf73")
+		(property "Reference" "R41"
+			(at 218.44 72.644 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 218.44 75.184 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.694 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 218.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4dc96a4-b870-435b-8abe-cfae12da9b19")
+		)
+		(pin "2"
+			(uuid "840d2e04-2423-441b-a77b-cd44bd420053")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 346.71 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4a69815-9f06-4265-9e10-413f0baf0d27")
+		(property "Reference" "R33"
+			(at 346.71 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 346.71 43.434 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.964 44.704 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 346.71 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c359364-88fe-42c9-84d8-cfb8c64b2df3")
+		)
+		(pin "2"
+			(uuid "0246a03f-f3b3-4418-ad9e-4ba654667a5c")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 373.38 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6c1d09d-5834-4dfa-9919-8dcdda5744d0")
+		(property "Reference" "R24"
+			(at 373.38 35.814 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 373.38 38.354 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.634 39.624 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 373.38 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "758615da-cb59-442a-bf7a-6c5e088133f2")
+		)
+		(pin "2"
+			(uuid "af5cb096-7c18-4213-b638-4446ac0da532")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -8235,6 +9867,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 147.32 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b45fc6ff-17a3-4be4-bb03-9e4514b6b17f")
+		(property "Reference" "R35"
+			(at 147.32 72.644 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 147.32 75.184 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.574 76.454 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "873b1658-5bef-4e29-8aac-66a262af065b")
+		)
+		(pin "2"
+			(uuid "3b6b5b3c-040a-4ef9-bdff-f6ebad713cfb")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 320.04 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b49244aa-3051-4ece-8a4c-fb6f383e4d6c")
+		(property "Reference" "R27"
+			(at 320.04 28.194 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 320.04 30.734 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.294 32.004 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 320.04 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e29f7d35-a69d-4318-8504-a6c86a06b497")
+		)
+		(pin "2"
+			(uuid "a8902196-567d-42ff-abf6-6c30cf719d56")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 96.52 0)
 		(unit 1)
@@ -8306,87 +10097,6 @@
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 293.37 48.26 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "badfbc1c-55d9-4b8f-a2b1-584ce6459c26")
-		(property "Reference" "R15"
-			(at 294.64 47.2439 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "nm_10k"
-			(at 294.64 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.354 48.006 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 293.37 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a369b148-e0ab-44f8-a241-0a88ede99d79")
-		)
-		(pin "2"
-			(uuid "2060d588-96c6-4680-98fe-707787d5e3e4")
-		)
-		(instances
-			(project "STM32_TQFP48"
-				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8633,6 +10343,87 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 153.67 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc4a6624-9f75-4721-ba2f-6dc9a1a2fc68")
+		(property "Reference" "R37"
+			(at 154.94 81.5339 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "nm_10k"
+			(at 154.94 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.654 82.296 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 153.67 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d384c5a2-73c0-4046-87f8-bd7db20621de")
+		)
+		(pin "2"
+			(uuid "c502ccc9-eb56-4974-b63a-34f07601f90f")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 259.08 48.26 180)
 		(unit 1)
 		(body_style 1)
@@ -8861,6 +10652,86 @@
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 320.04 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9c4787c-a20e-4cd4-8b1a-2589aedcb796")
+		(property "Reference" "R28"
+			(at 320.04 34.544 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R/100R"
+			(at 320.04 37.084 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.294 38.354 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 320.04 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e7274ac-6492-4c0f-88ac-ee194ee0cc45")
+		)
+		(pin "2"
+			(uuid "43b85ad1-b177-4659-99f2-e43d978af80a")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -9168,18 +11039,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 161.29 148.59 180)
+		(lib_id "Device:R_US")
+		(at 346.71 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e9a708fa-52e0-42b1-81cd-589533227d8e")
-		(property "Reference" "JP7"
-			(at 160.782 143.764 0)
+		(uuid "e8ff5c39-cb36-46a3-ba80-c43776c8e22e")
+		(property "Reference" "R34"
+			(at 346.71 47.244 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9188,8 +11060,8 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 161.036 145.796 0)
+		(property "Value" "0R/100R"
+			(at 346.71 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9199,7 +11071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 148.59 0)
+			(at 346.964 51.054 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9210,7 +11082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 140.97 0)
+			(at 346.71 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9220,8 +11092,8 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 161.29 143.51 0)
+		(property "Description" "Resistor, US symbol"
+			(at 346.71 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9230,17 +11102,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "388af863-e2f0-431f-a63f-b2d5739f567c")
 		)
 		(pin "1"
-			(uuid "e1fb3705-2a78-4093-b53f-879fa20a4ecf")
+			(uuid "5bb37473-69f4-41e0-ae55-6feb197064db")
+		)
+		(pin "2"
+			(uuid "683adea1-3601-467b-88e7-f7ea6ac35b11")
 		)
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP7")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -9409,87 +11281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 31.75 88.9 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f0c329dd-85e2-4131-bd86-0f304c57b208")
-		(property "Reference" "R18"
-			(at 33.02 87.8839 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "nm_10k"
-			(at 33.02 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.734 88.646 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 31.75 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c21bca91-21cb-48d5-ad61-f65c994d78c2")
-		)
-		(pin "2"
-			(uuid "b67ca58e-35f3-40da-b086-0850d26b752c")
-		)
-		(instances
-			(project "STM32_TQFP48"
-				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 189.23 54.61 0)
 		(unit 1)
@@ -9568,7 +11359,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 287.02 43.18 90)
+		(at 293.37 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9578,7 +11369,8 @@
 		(dnp no)
 		(uuid "f4ae6ed6-f9c8-477a-a002-db316e37ab5a")
 		(property "Reference" "R13"
-			(at 287.02 38.354 90)
+			(at 293.37 28.194 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9588,7 +11380,7 @@
 			)
 		)
 		(property "Value" "0R/100R"
-			(at 287.02 40.894 90)
+			(at 293.37 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9598,7 +11390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.274 42.164 90)
+			(at 293.624 32.004 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9609,7 +11401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 43.18 0)
+			(at 293.37 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9620,7 +11412,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 287.02 43.18 0)
+			(at 293.37 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9640,6 +11432,88 @@
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 224.79 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7896047-9a21-459f-9c89-b6d09d41d5c9")
+		(property "Reference" "SW2"
+			(at 226.06 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 226.06 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 224.79 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c57387a3-5400-492b-9be8-f56effd4449f")
+		)
+		(pin "1"
+			(uuid "61ade8e1-5a5f-4fd1-b7b3-fe8d02c96f1c")
+		)
+		(instances
+			(project "STM32_TQFP48"
+				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
