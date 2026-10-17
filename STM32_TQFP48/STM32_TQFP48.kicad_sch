@@ -7233,7 +7233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0059493e-d030-49fa-9408-4c7b3be1ed46")
-		(property "Reference" "R5"
+		(property "Reference" "R31"
 			(at 313.69 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7297,7 +7297,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R5")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -7314,7 +7314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "008c4b48-f497-4e35-8145-76e33ef195ba")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 60.706 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7378,7 +7378,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7395,7 +7395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05140e6f-bdf7-4a8d-a428-8b5fa82c2cfd")
-		(property "Reference" "JP28"
+		(property "Reference" "JP14"
 			(at 102.616 205.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7459,7 +7459,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP28")
+					(reference "JP14")
 					(unit 1)
 				)
 			)
@@ -7476,7 +7476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05bed5ea-34de-44b6-8307-4b3ec017d885")
-		(property "Reference" "JP30"
+		(property "Reference" "JP8"
 			(at 61.976 266.954 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7540,7 +7540,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP30")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -7558,7 +7558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "095ec90a-9a2e-48e4-b343-64d7c3b38674")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 55.88 170.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7622,7 +7622,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7639,7 +7639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e17fc64-dc4d-4c38-b0eb-223edc56143c")
-		(property "Reference" "JP14"
+		(property "Reference" "JP27"
 			(at 355.346 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7701,7 +7701,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP14")
+					(reference "JP27")
 					(unit 1)
 				)
 			)
@@ -7718,7 +7718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e69b5fb-01fd-4af1-9945-0f2036c0f868")
-		(property "Reference" "JP15"
+		(property "Reference" "JP28"
 			(at 355.346 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7780,7 +7780,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP15")
+					(reference "JP28")
 					(unit 1)
 				)
 			)
@@ -7797,7 +7797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fd815b8-d9a7-4ff1-9f21-668488eabd78")
-		(property "Reference" "R17"
+		(property "Reference" "R9"
 			(at 52.07 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7861,7 +7861,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7878,7 +7878,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "129a7f8d-6378-4b07-8ad1-c4213b184657")
-		(property "Reference" "JP26"
+		(property "Reference" "JP5"
 			(at 36.576 211.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7942,7 +7942,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP26")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -7959,7 +7959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12d59953-f1f0-489f-8096-e9ac6b530217")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR021"
 			(at 99.06 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -8019,7 +8019,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR036")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8036,7 +8036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14adf4f4-0f56-490f-9bf5-024b94cd3a4a")
-		(property "Reference" "R33"
+		(property "Reference" "R22"
 			(at 130.81 245.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8100,7 +8100,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R33")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8117,7 +8117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1630e4ad-fb2f-4165-9f1e-8cbef36f010a")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 50.546 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8181,7 +8181,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8198,7 +8198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cccb043-edc6-4df1-8940-a9e0e8c11f9d")
-		(property "Reference" "JP3"
+		(property "Reference" "JP17"
 			(at 299.466 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8260,7 +8260,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP3")
+					(reference "JP17")
 					(unit 1)
 				)
 			)
@@ -8277,7 +8277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e603ba4-791b-4f2d-9083-a9d501cab717")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 40.386 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8341,7 +8341,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8358,7 +8358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f7cc712-331e-4a64-8bfe-da970f618d1f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR028"
 			(at 276.86 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8418,7 +8418,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR01")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8435,7 +8435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22154488-390b-43d2-b94d-c952afc72ff2")
-		(property "Reference" "R29"
+		(property "Reference" "R17"
 			(at 77.47 213.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8499,7 +8499,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R29")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8516,7 +8516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "258535bb-bb66-4146-aeb5-a0c1e34fab88")
-		(property "Reference" "JP31"
+		(property "Reference" "JP7"
 			(at 32.766 266.954 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8580,7 +8580,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP31")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -8597,7 +8597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2642f99f-d86b-41f3-beef-57bb366701f8")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR022"
 			(at 100.33 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -8657,7 +8657,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR033")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8674,7 +8674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "285617f5-a20f-4bb4-a5b7-8c95c7058881")
-		(property "Reference" "R15"
+		(property "Reference" "R4"
 			(at 30.48 256.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8736,7 +8736,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R15")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8753,7 +8753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c878950-d822-473a-bd44-299c78179dde")
-		(property "Reference" "R4"
+		(property "Reference" "R30"
 			(at 306.07 34.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +8815,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R4")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -8919,7 +8919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "302dbc95-8771-4a4b-b165-0ffb8d3e3260")
-		(property "Reference" "C12"
+		(property "Reference" "C5"
 			(at 62.23 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8983,7 +8983,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C12")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9000,7 +9000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3294700c-08d4-46c2-9ae5-16cf39c5bbef")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 81.026 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9064,7 +9064,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9081,7 +9081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ab9cb22-6001-4afb-8da6-957e56d96d90")
-		(property "Reference" "JP22"
+		(property "Reference" "JP1"
 			(at 32.766 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9143,7 +9143,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP22")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -9160,7 +9160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ac21d9a-f544-44af-adbc-6513378ac3b1")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR05"
 			(at 36.83 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9220,7 +9220,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR018")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9237,7 +9237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d19b0d4-0bce-4bc8-a89a-b6213a28a35e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 40.64 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9297,7 +9297,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9314,7 +9314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e967cc3-8afb-4997-b99a-e61087e91ab9")
-		(property "Reference" "JP25"
+		(property "Reference" "JP11"
 			(at 72.136 200.914 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9378,7 +9378,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP25")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -9395,7 +9395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41b8d96e-5b43-47e4-8dbe-c38577f39258")
-		(property "Reference" "R36"
+		(property "Reference" "R7"
 			(at 41.91 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9459,7 +9459,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R36")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9476,7 +9476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42665bb1-cee8-4d73-b9af-6368d8a1da3e")
-		(property "Reference" "JP17"
+		(property "Reference" "JP30"
 			(at 355.346 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9538,7 +9538,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP17")
+					(reference "JP30")
 					(unit 1)
 				)
 			)
@@ -9555,7 +9555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42e0c2a5-3886-414a-afe6-279b149f6e74")
-		(property "Reference" "JP34"
+		(property "Reference" "JP16"
 			(at 195.834 244.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9619,7 +9619,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP34")
+					(reference "JP16")
 					(unit 1)
 				)
 			)
@@ -9636,7 +9636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43c0a96e-0442-460e-b2c3-b4f5d7b99ddc")
-		(property "Reference" "R2"
+		(property "Reference" "R27"
 			(at 270.51 34.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9698,7 +9698,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R2")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -9715,7 +9715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "447fb95e-052e-4df9-8e2e-1b3bff27879f")
-		(property "Reference" "JP6"
+		(property "Reference" "JP20"
 			(at 299.466 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9777,7 +9777,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP6")
+					(reference "JP20")
 					(unit 1)
 				)
 			)
@@ -9794,7 +9794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45c6e43e-52c9-4714-afb6-27e8380b898f")
-		(property "Reference" "R31"
+		(property "Reference" "R20"
 			(at 101.6 245.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9858,7 +9858,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R31")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9875,7 +9875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48d68cd6-3f44-4f28-8d65-f8255cd17bbe")
-		(property "Reference" "R21"
+		(property "Reference" "R6"
 			(at 38.1 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9939,7 +9939,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R21")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9957,7 +9957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48e05d44-1e78-4f1e-966f-69484bd40749")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR011"
 			(at 52.07 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10017,7 +10017,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10034,7 +10034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49a0001e-c79b-4a61-ab2e-10dde63b1f11")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR016"
 			(at 73.66 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10094,7 +10094,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR021")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10193,7 +10193,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e423696-0870-486b-9308-09eb5a82ae28")
-		(property "Reference" "R3"
+		(property "Reference" "R29"
 			(at 278.13 43.4339 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10257,7 +10257,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R3")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -10274,7 +10274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e780187-8228-4ead-a236-6a9611047e9b")
-		(property "Reference" "R16"
+		(property "Reference" "R1"
 			(at 21.844 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10336,7 +10336,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R16")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10353,7 +10353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f442efa-d064-410a-90b7-439d3bc7a8dc")
-		(property "Reference" "R38"
+		(property "Reference" "R13"
 			(at 67.31 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10415,7 +10415,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R38")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10432,7 +10432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50ac4986-f12b-40d9-812e-4d8d908c13a9")
-		(property "Reference" "JP20"
+		(property "Reference" "JP9"
 			(at 74.676 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10494,7 +10494,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP20")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -10511,7 +10511,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50f10da2-bb7a-4d87-8b13-9bf8fc17baf9")
-		(property "Reference" "R28"
+		(property "Reference" "R26"
 			(at 193.04 265.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10575,7 +10575,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R28")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -10592,7 +10592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51fc23dc-200f-45c0-b1a7-64a168a559ee")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR031"
 			(at 347.98 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10652,7 +10652,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR05")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10669,7 +10669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59163aa2-b0ac-4111-9484-54f6b85946f1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR036"
 			(at 382.27 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10729,7 +10729,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR08")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10746,7 +10746,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59613bac-4fb5-4dc2-be52-8be2d33b083d")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR010"
 			(at 50.8 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -10806,7 +10806,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10823,7 +10823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a9501b6-1865-4f0a-86a1-43c898a02a69")
-		(property "Reference" "R39"
+		(property "Reference" "R15"
 			(at 74.93 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10887,7 +10887,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R39")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10904,7 +10904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bca6787-b42f-4121-89de-957ee420079d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR017"
 			(at 73.66 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10964,7 +10964,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR022")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10981,7 +10981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cb87f75-4f77-4e4f-b532-b7e41a7fb482")
-		(property "Reference" "R40"
+		(property "Reference" "R16"
 			(at 74.93 84.0739 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11045,7 +11045,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R40")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11062,7 +11062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60e09119-605d-4140-920a-f55432921503")
-		(property "Reference" "R7"
+		(property "Reference" "R33"
 			(at 341.63 34.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11124,7 +11124,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R7")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -11141,7 +11141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "619f2c20-dff7-42e5-99b9-b20126a41f53")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 185.42 246.634 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11203,7 +11203,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -11220,7 +11220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62caddbc-49e7-4112-9204-f209694c9384")
-		(property "Reference" "C11"
+		(property "Reference" "C8"
 			(at 91.186 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11284,7 +11284,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C11")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11301,7 +11301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6320303e-72d0-4979-b4cf-9be11930825f")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR01"
 			(at 24.13 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -11361,7 +11361,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR019")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11378,7 +11378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "635a8652-cc55-4754-a154-e47fc192f6c4")
-		(property "Reference" "JP11"
+		(property "Reference" "JP3"
 			(at 36.576 199.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11442,7 +11442,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP11")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -11459,7 +11459,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "646c9517-eda8-4a4c-ac40-dc3b63748055")
-		(property "Reference" "R10"
+		(property "Reference" "R36"
 			(at 375.92 34.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11521,7 +11521,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R10")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -11538,7 +11538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65f297a4-dea4-4950-acfe-e71500aa97c1")
-		(property "Reference" "R22"
+		(property "Reference" "R14"
 			(at 68.58 245.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11602,7 +11602,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R22")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -11619,7 +11619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6745d91c-c377-490c-ae94-de3eccf508bb")
-		(property "Reference" "R43"
+		(property "Reference" "R19"
 			(at 93.98 256.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11681,7 +11681,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R43")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11698,7 +11698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "679a5db5-a34a-400c-8a42-ba80268ac8e7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR029"
 			(at 312.42 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11758,7 +11758,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR03")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11776,7 +11776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6847f325-3d1d-4e8d-9538-967eb365a421")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 50.8 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11840,7 +11840,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -11857,7 +11857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68c40b84-55a2-4277-b8c3-3e5224a87e28")
-		(property "Reference" "JP33"
+		(property "Reference" "JP15"
 			(at 162.814 244.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11921,7 +11921,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP33")
+					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -11938,7 +11938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "694b3eb7-e100-4f11-8ab0-37f11945f7c0")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR027"
 			(at 276.86 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11998,7 +11998,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR02")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12015,7 +12015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a67fd40-d422-49ec-bf90-5906e85b0235")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR015"
 			(at 67.31 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -12075,7 +12075,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR025")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12092,7 +12092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d6078a8-404a-4b3f-92c7-5a58aa58a87d")
-		(property "Reference" "JP32"
+		(property "Reference" "JP6"
 			(at 40.894 244.602 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12156,7 +12156,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP32")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -12173,7 +12173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "725735b3-2fcf-499c-9b8f-da6babc5433b")
-		(property "Reference" "JP13"
+		(property "Reference" "JP26"
 			(at 355.346 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12235,7 +12235,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP13")
+					(reference "JP26")
 					(unit 1)
 				)
 			)
@@ -12252,7 +12252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76c8bd9d-d2b6-4246-bf0e-e33e7bfb593a")
-		(property "Reference" "R32"
+		(property "Reference" "R21"
 			(at 123.19 246.634 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12314,7 +12314,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R32")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -12331,7 +12331,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78d8f734-6d2c-48c2-83d4-5001b0f58ec3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 40.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12391,7 +12391,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12408,7 +12408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78ea983a-402b-4de7-8aad-0ae1b3691aaf")
-		(property "Reference" "JP10"
+		(property "Reference" "JP24"
 			(at 327.406 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12470,7 +12470,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP10")
+					(reference "JP24")
 					(unit 1)
 				)
 			)
@@ -12487,7 +12487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79f2d03b-60ab-48bb-9220-490560a71cb6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR06"
 			(at 36.83 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -12547,7 +12547,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR024")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12564,7 +12564,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ab002db-ad62-4901-a2dc-c8557395a6a9")
-		(property "Reference" "JP16"
+		(property "Reference" "JP29"
 			(at 355.346 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12626,7 +12626,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP16")
+					(reference "JP29")
 					(unit 1)
 				)
 			)
@@ -12643,7 +12643,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7acbfcef-af89-4280-a2c0-3e172484d045")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR018"
 			(at 76.2 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -12703,7 +12703,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR031")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12720,7 +12720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d5b3671-44c8-49c4-970e-f02632773084")
-		(property "Reference" "R19"
+		(property "Reference" "R10"
 			(at 55.88 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12784,7 +12784,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R19")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12801,7 +12801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f7def32-bf7d-468d-8a34-c1052542c006")
-		(property "Reference" "R34"
+		(property "Reference" "R12"
 			(at 60.96 256.794 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12863,7 +12863,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R34")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12880,7 +12880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82e61eeb-4864-413f-a006-f94100c802ef")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR035"
 			(at 382.27 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12940,7 +12940,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR07")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12957,7 +12957,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8612c957-80ad-4c20-8d0e-4e1fe13f76fe")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR023"
 			(at 129.54 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -13017,7 +13017,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR034")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13034,7 +13034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87b1608d-7a37-4dce-9042-5ff7a1ffbeeb")
-		(property "Reference" "JP27"
+		(property "Reference" "JP13"
 			(at 102.616 199.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13098,7 +13098,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP27")
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -13115,7 +13115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8871d3a3-6169-47f9-89aa-97769cbfefc5")
-		(property "Reference" "JP19"
+		(property "Reference" "JP31"
 			(at 383.286 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13177,7 +13177,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP19")
+					(reference "JP31")
 					(unit 1)
 				)
 			)
@@ -13194,7 +13194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9172907f-a78f-4248-9b7a-ce98c14bd634")
-		(property "Reference" "C9"
+		(property "Reference" "C6"
 			(at 70.866 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13258,7 +13258,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C9")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13275,7 +13275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "919d3535-22af-464d-9b3b-99dc1998d23a")
-		(property "Reference" "C2"
+		(property "Reference" "C10"
 			(at 324.866 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13339,7 +13339,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C2")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -13356,7 +13356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "950f0ff2-af7a-44e8-bbb3-0632bc1764f1")
-		(property "Reference" "JP24"
+		(property "Reference" "JP4"
 			(at 36.576 205.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13420,7 +13420,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP24")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -13516,7 +13516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96aba590-33d4-45d6-ada7-0ba9fbaf5169")
-		(property "Reference" "R9"
+		(property "Reference" "R35"
 			(at 349.25 43.4339 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13580,7 +13580,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R9")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -13597,7 +13597,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97ae061c-3a66-4f9e-9ccc-214c98493fb5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR04"
 			(at 36.83 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -13657,7 +13657,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR017")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -13674,7 +13674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98c93e3e-6918-4b20-8de6-9fa3fae64b05")
-		(property "Reference" "R1"
+		(property "Reference" "R28"
 			(at 278.13 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13738,7 +13738,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R1")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -13834,7 +13834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c04fa5a-d7ec-4505-ba9a-838c89f86fcb")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR025"
 			(at 191.77 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -13894,7 +13894,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR029")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13911,7 +13911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0f706e4-41ec-4942-a5be-687330e9474e")
-		(property "Reference" "JP4"
+		(property "Reference" "JP18"
 			(at 299.466 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13973,7 +13973,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP4")
+					(reference "JP18")
 					(unit 1)
 				)
 			)
@@ -13990,7 +13990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a14c10c2-aedc-4508-94dc-cef9ff81728a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR07"
 			(at 36.83 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -14050,7 +14050,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR023")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -14067,7 +14067,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a353e056-211e-4edd-8d67-60e4f65d9549")
-		(property "Reference" "JP5"
+		(property "Reference" "JP19"
 			(at 299.466 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14129,7 +14129,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP5")
+					(reference "JP19")
 					(unit 1)
 				)
 			)
@@ -14146,7 +14146,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a45dc649-5c74-43d5-b1ed-56905f5caf73")
-		(property "Reference" "R41"
+		(property "Reference" "R2"
 			(at 30.48 160.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14208,7 +14208,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R41")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14225,7 +14225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4f8d9cb-38e4-4c87-88be-581ae897033f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR034"
 			(at 359.41 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14285,7 +14285,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR027")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14302,7 +14302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a766cdb0-86a2-4fb3-a47a-dbb1a7d06bf8")
-		(property "Reference" "JP7"
+		(property "Reference" "JP21"
 			(at 299.466 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14364,7 +14364,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP7")
+					(reference "JP21")
 					(unit 1)
 				)
 			)
@@ -14381,7 +14381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa988c85-3e5c-4fff-9928-08648868eb7d")
-		(property "Reference" "R30"
+		(property "Reference" "R18"
 			(at 93.98 246.634 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14443,7 +14443,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R30")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -14460,7 +14460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad16005f-f999-4d66-909d-a73b31be38e5")
-		(property "Reference" "R8"
+		(property "Reference" "R34"
 			(at 349.25 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14524,7 +14524,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R8")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -14541,7 +14541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad315df2-5fed-4982-bd7c-239b87b63272")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR03"
 			(at 26.67 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14601,7 +14601,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR012")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -14618,7 +14618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0074886-836d-4826-b092-89c09bf7c835")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR012"
 			(at 54.61 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -14678,7 +14678,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR015")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14695,7 +14695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b45fc6ff-17a3-4be4-bb03-9e4514b6b17f")
-		(property "Reference" "R35"
+		(property "Reference" "R5"
 			(at 34.29 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14757,7 +14757,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R35")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14774,7 +14774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b55fcabc-0fb2-4a5c-a0b7-bb8698096d41")
-		(property "Reference" "JP9"
+		(property "Reference" "JP23"
 			(at 327.406 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14836,7 +14836,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP9")
+					(reference "JP23")
 					(unit 1)
 				)
 			)
@@ -14853,7 +14853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b607b4e2-77aa-4c31-ba6e-7c8ec50c3fcc")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR014"
 			(at 66.04 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -14913,7 +14913,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR035")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14930,7 +14930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8249eab-13ba-4a16-9088-8b4a23c36d14")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 54.61 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -14990,7 +14990,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15084,7 +15084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc786fba-fb95-4d9e-8f2c-29e44ca2ffb8")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR019"
 			(at 76.2 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -15144,7 +15144,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR032")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -15161,7 +15161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcc9bea9-15f1-4fe9-8c59-9140e5a4c9d3")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 191.77 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -15221,7 +15221,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15238,7 +15238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1f9c608-e940-4bb7-af9d-ea6dcd3ef296")
-		(property "Reference" "C4"
+		(property "Reference" "C12"
 			(at 394.716 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15302,7 +15302,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C4")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15319,7 +15319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c202a3c7-4959-426e-b202-83bda1c4567d")
-		(property "Reference" "R11"
+		(property "Reference" "R37"
 			(at 383.54 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15383,7 +15383,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R11")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -15400,7 +15400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc4a6624-9f75-4721-ba2f-6dc9a1a2fc68")
-		(property "Reference" "R37"
+		(property "Reference" "R8"
 			(at 41.91 84.0739 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15464,7 +15464,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R37")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -15481,7 +15481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce53bdfb-3bdd-41ac-babc-461769911e76")
-		(property "Reference" "R12"
+		(property "Reference" "R38"
 			(at 383.54 43.4339 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15545,7 +15545,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R12")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -15562,7 +15562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d19f0f97-fe9c-4e70-89c3-edc386ea59cb")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR032"
 			(at 347.98 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15622,7 +15622,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR06")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -15639,7 +15639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d20e9b94-ffc5-4e91-8621-d5be78d5dff2")
-		(property "Reference" "JP8"
+		(property "Reference" "JP22"
 			(at 327.406 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15701,7 +15701,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP8")
+					(reference "JP22")
 					(unit 1)
 				)
 			)
@@ -15718,7 +15718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d47cfafd-c33e-46e8-9503-57a30f5d8e84")
-		(property "Reference" "JP18"
+		(property "Reference" "JP32"
 			(at 383.286 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15780,7 +15780,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP18")
+					(reference "JP32")
 					(unit 1)
 				)
 			)
@@ -15797,7 +15797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d50f993d-3fbd-4f2e-9318-f353f31fe71f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR024"
 			(at 158.75 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -15857,7 +15857,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR028")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -15874,7 +15874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5b559d2-4ab9-46e1-a6e3-734e914f1620")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR033"
 			(at 359.41 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -15934,7 +15934,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR026")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15951,7 +15951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6773e18-60d4-4d07-b3f8-b97b9d08000a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR02"
 			(at 26.67 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -16011,7 +16011,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR011")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -16028,7 +16028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de2f0a0b-e315-4b7c-9fe5-870cd08f12e7")
-		(property "Reference" "JP29"
+		(property "Reference" "JP12"
 			(at 94.996 266.954 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16092,7 +16092,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP29")
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -16109,7 +16109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0d6fc1d-4a4e-4c72-81b0-1a3d47cd6ac9")
-		(property "Reference" "R20"
+		(property "Reference" "R11"
 			(at 60.96 246.634 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16171,7 +16171,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R20")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -16188,7 +16188,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1b1be67-54ed-4561-bacd-f65b05c4e906")
-		(property "Reference" "R13"
+		(property "Reference" "R3"
 			(at 30.48 246.634 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16250,7 +16250,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R13")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -16487,7 +16487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7b7ba58-fd1b-417f-a7ae-5348bc6adb7a")
-		(property "Reference" "C1"
+		(property "Reference" "C9"
 			(at 289.306 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16551,7 +16551,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16568,7 +16568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eae28213-8f78-4c5f-932e-1d2507ab8e12")
-		(property "Reference" "R6"
+		(property "Reference" "R32"
 			(at 313.69 43.4339 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16632,7 +16632,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R6")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -16649,7 +16649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec6c4f69-15ff-43c9-a15c-3d8c5844efeb")
-		(property "Reference" "JP21"
+		(property "Reference" "JP10"
 			(at 74.676 123.444 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16711,7 +16711,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP21")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -16728,7 +16728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eccb82f2-276f-43dc-901c-44e3b4f1a7b7")
-		(property "Reference" "JP23"
+		(property "Reference" "JP2"
 			(at 32.766 123.444 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16790,7 +16790,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP23")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -16807,7 +16807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eff2bdad-89c5-409e-a17d-a572599a5066")
-		(property "Reference" "C3"
+		(property "Reference" "C11"
 			(at 360.426 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16871,7 +16871,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "C3")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -16888,7 +16888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f208aafb-0f6e-4886-9cf4-01a93f78b855")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR030"
 			(at 312.42 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -16948,7 +16948,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "#PWR04")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -16965,7 +16965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f701964e-9c89-4c0a-938c-df43bb8e34bc")
-		(property "Reference" "JP12"
+		(property "Reference" "JP25"
 			(at 327.406 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17027,7 +17027,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "JP12")
+					(reference "JP25")
 					(unit 1)
 				)
 			)
@@ -17045,7 +17045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7896047-9a21-459f-9c89-b6d09d41d5c9")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 38.1 170.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17109,7 +17109,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -17126,7 +17126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb710a26-9963-4c62-a7b9-4b8c8104114a")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 185.42 266.954 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17188,7 +17188,7 @@
 		(instances
 			(project "STM32_TQFP48"
 				(path "/da47081d-6176-47f7-bffd-74035f5a25fc"
-					(reference "R27")
+					(reference "R25")
 					(unit 1)
 				)
 			)
