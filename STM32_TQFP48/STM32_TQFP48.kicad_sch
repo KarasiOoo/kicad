@@ -3959,6 +3959,12 @@
 		(uuid "af59b366-506b-4021-8c59-9e1a16734346")
 	)
 	(junction
+		(at 191.77 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6dd5b23-5ee1-4844-86c5-69504338b403")
+	)
+	(junction
 		(at 78.74 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4459,16 +4465,6 @@
 			(type default)
 		)
 		(uuid "174f9dce-d45a-4def-accc-95c926edbe1a")
-	)
-	(wire
-		(pts
-			(xy 17.8562 251.46) (xy 26.67 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "176a794f-dbb1-4d72-81a1-f0cee951ca47")
 	)
 	(wire
 		(pts
@@ -5442,6 +5438,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 251.46) (xy 209.55 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ec4ace-3918-4c9b-a892-b7e73bded0d4")
+	)
+	(wire
+		(pts
 			(xy 163.83 144.78) (xy 176.53 144.78)
 		)
 		(stroke
@@ -6239,6 +6245,16 @@
 			(type default)
 		)
 		(uuid "b6f4ff98-7a05-4eb2-ae07-cfbad454b386")
+	)
+	(wire
+		(pts
+			(xy 20.32 251.46) (xy 26.67 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b715b318-de80-41d2-b704-66f1806d14a6")
 	)
 	(wire
 		(pts
@@ -7650,6 +7666,16 @@
 		)
 		(uuid "381ef5a9-7021-416c-ad4d-c3f0aec17d57")
 	)
+	(label "PB9{slash}VSS"
+		(at 163.83 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b73fcfb-3fa9-46d2-a438-92dfa30e0ec6")
+	)
 	(label "PB_12"
 		(at 173.99 271.78 0)
 		(effects
@@ -8230,16 +8256,6 @@
 		)
 		(uuid "93c6eefa-a6e8-4b5e-83f5-7fbc6b5f36bf")
 	)
-	(label "VDD{slash}VCAP0"
-		(at 163.83 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "94dd8860-b5f4-40dd-824e-878207d93d39")
-	)
 	(label "PA10"
 		(at 213.36 119.38 180)
 		(effects
@@ -8490,7 +8506,7 @@
 		)
 		(uuid "b8f768d5-6b0d-4a20-8f4d-9384edcb21c0")
 	)
-	(label "PA13"
+	(label "PB13"
 		(at 369.57 93.98 180)
 		(effects
 			(font
